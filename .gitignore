@@ -1,0 +1,3 @@
+# don't check in anything we build, just the source
+*.pdb
+*.exe
