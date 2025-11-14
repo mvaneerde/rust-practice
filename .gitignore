@@ -1,3 +1,9 @@
 # don't check in anything we build, just the source
+
+# rustc
 *.pdb
 *.exe
+
+# cargo build
+cargo.lock
+target/
