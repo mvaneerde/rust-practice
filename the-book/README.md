@@ -8,3 +8,4 @@ Stuff from [The Rust Programming Language](https://doc.rust-lang.org/stable/book
 1. Chapter 2
 1. Chapter 3
     * [Variables](./chapter-3/variables/)
+    * [Data types](./chapter-3/data-types/)
