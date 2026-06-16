@@ -60,7 +60,6 @@ fn if_as_an_expression() {
 }
 
 fn if_expression_different_types() {
-    let condition = true;
 
     // the compiler tries to figure out what type `number` should be
     // but the different branches of the `if` evaluate to different types
@@ -69,6 +68,7 @@ fn if_expression_different_types() {
 
     // this is a compile error
     // commenting it out so the crate will compile and run
+    // let condition = true;
     // let number = if condition { 5 } else { "six" }; // expected integer, found `&str`
     // println!("The value of number is: {}", number);
 }
